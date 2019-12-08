@@ -1,0 +1,27 @@
+.lesson{
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background: black;
+    transition: width 2s;
+}
+@-webkit-keyframes lesson {
+    0%   { left:0px; top:0px;}
+    
+    50%  { left:200px; top:0px;}
+   
+    100% { left:0px; top:0px;}
+  }
+.lesson ul li {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    
+}
+.lesson i {
+    position: absolute;
+    font-size: 35px;
+    color:white;
+    top:0;
+    right: 10px
+}

@@ -1,0 +1,111 @@
+
+*{margin: 0;
+    padding: 0;
+margin-top: 15px;
+  
+}
+div{border: 2px solid black;
+    border-radius: 9px;
+    display: inline;
+   height: 150px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+[class*="cal-"]{
+    float: left;
+}
+
+
+.cal-1{width: 8.33%;}
+.cal-lg-2{width: 16.16%;}
+.cal-3{width: 24.66%;}
+.cal-4{width: 33.32%;}
+.cal-5{width: 41.65%;}
+.cal-6{width: 49.98%;}
+.cal-7{width: 58.31%;}
+.cal-8{width: 66.64%;}
+.cal-9{width: 74.97%;}
+.cal-10{width: 83.33%;}
+.cal-11{width: 91.63%;}
+.offset-1 { margin-left: 8.3333%;}
+
+.offset-2 {
+    margin-left: 16.6666%;
+}
+
+.offset-3 {
+    margin-left: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.3333%;
+}
+
+.offset-5 {
+    margin-left: 41.666%;
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: 58.3333%;
+}
+
+.offset-8 {
+    margin-left: 66.666%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.offset-10 {
+    margin-left: 83.3333%;
+}
+
+.offset-11 {
+    margin-left: 91.666%;
+}
+h3{margin-left: 5px;
+display: block;
+text-align: center;
+}
+
+.fa-chart-line{
+    font-size:50px;
+margin-top:30px;
+color: blue;
+}
+.fa-chart-line:hover{
+    box-shadow:1px grey;
+    color: black;
+}
+@media screen and( max-width:768px) {
+    .cal-md-1{width: 8.33%;}
+.cal-md-2{width: 16.16%;}
+.cal-md-3{width: 24.66%;}
+.cal-md-4{width: 33.32%;}
+.cal-md-5{width: 41.65%;}
+.cal-md-6{width: 49.98%;}
+.cal-md-7{width: 58.31%;}
+.cal-md-8{width: 66.64%;}
+.cal-md-9{width: 74.97%;}
+.cal-md-10{width: 83.33%;}
+.cal-md-11{width: 91.63%;}
+}
+@media screen and (max-width:768px) { [class*="cal-"]{
+
+    width: 100%;
+}
+}
+@media only screen and (max-width: 540px) {
+    [class*="cal-"]{
+
+        width: 100%;
+    }
+}

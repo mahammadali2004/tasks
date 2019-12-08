@@ -1,0 +1,9 @@
+.card{
+    height: 250px;
+    overflow: auto;
+}
+
+canvas{
+    border: 1px solid red;
+    margin: 50px;
+}

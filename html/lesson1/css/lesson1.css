@@ -1,0 +1,77 @@
+body{
+    background: black
+}
+
+.sunorbit{
+    position: relative;
+   top: 0px;
+  margin: auto;
+        width: 400px;
+        height: 400px;
+        border: 2px solid grey;
+        /* border-radius: 50%; */
+        background: black;
+        animation-iteration-count: infinite;
+animation-name: test;
+animation-duration: 4s;}
+@keyframes{
+           
+            transform: rotate(360); }
+.sun{
+position: absolute;
+
+ top: 0px;
+left: 0px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid yellow;
+    /* border-radius: 50px; */
+    background: yellow;
+    animation-iteration-count: infinite;
+        transform: rotate(360);
+}
+.earth{
+    position: absolute;
+    left: 0px;
+        top: 0px;
+    
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    background: blue;
+    animation-iteration-count: infinite;
+        transform: rotate(360);
+}
+.moon{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 10px;
+    height: 10px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    background: grey
+    
+}
+/* .sunorbit{
+    position: relative;
+    margin: auto;
+    top: 100px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 125px;
+    background: black
+}
+.moonorbit{
+    position: relative;
+    margin: auto;
+    top: 350px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: black
+} */

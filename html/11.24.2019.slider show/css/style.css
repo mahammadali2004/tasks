@@ -1,0 +1,16 @@
+.menu{
+    position: relative;
+}
+.fa-chevron-left{
+    position: absolute;
+    float: left;
+    margin-top: 100px;
+    color: red;
+font-size: 20em
+}
+.fa-chevron-right{
+    position: absolute;
+    float: left;
+    color: black;
+font-size: 20em
+}

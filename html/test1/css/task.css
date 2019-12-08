@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+   
+    font-family: 'Mansalva', cursive;
+   
+    font-size: 20px;}
+    
+.task{
+   
+     font-style: italic;
+    font-size: 20px;
+    
+}
+.task1{
+    font-size: 20px;
+font-family: asdf
+}
+@font-face{
+    font-family: asdf;
+    src: url(../font/ALBOROTO.otf)
+}
+h1{
+    text-align: center;
+    text-decoration: overline;
+    /* font-style: oblique; */
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div[class*="col-"]{
+float: left;
+}
+
+.col-1{width: 8.333%;}
+.col-2{width: 16.666%;}
+.col-3{ width: 24.999%;}
+.col-4{ width: 33.333%;}
+.col-5{width: 41.66%;}
+.col-6{ width: 49.99%;}
+.col-7{ width: 58.333%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.333%;}
+.col-11{ width: 91.66%;}
+
+
+.offset-1{margin-left: 8.333%;}
+.offset-2{margin-left: 16.666%;}
+.offset-3{ margin-left: 24.999%;}
+.offset-4{ margin-left: 33.333%;}
+.offset-5{margin-left: 41.66%;}
+.offset-6{ margin-left: 49.99%;}
+.offset-7{ margin-left: 58.333%;}
+.offset-8{ margin-left: 66.66%;}
+.offset-9{ margin-left: 75%;}
+.offset-10{ margin-left: 83.333%;}
+.offset-11{ margin-left: 91.66%;}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.logo{
+    /* width: 100px; 
+    height:60px ;
+     */
+}
+.blue{
+    background: blue;
+    height: 100px;
+}
+.red{
+    background: red;
+    height: 100px;
+}
+.green{
+    background: green;
+    height: 100px;
+    
+}
+.yellow{
+    background: yellow;
+    height: 100px;
+}
+
+p{
+    display: inline;
+font-size: 30px;
+}
+.div .p :last-child{
+    background: blue;
+    border: 1px;
+    border-ra
+}

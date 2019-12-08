@@ -1,0 +1,14 @@
+.kub{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border:2px solid black;
+    position: absolute;
+}
+.bigkub{
+position: relative;
+    width: 700px;
+    height: 400px;
+  border:2px solid black;
+  margin: auto;
+}
